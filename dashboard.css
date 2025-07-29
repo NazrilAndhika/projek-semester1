@@ -1,0 +1,96 @@
+/* Gaya untuk body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    background-image:url(asset/Customizable\ Zoom\ virtual\ backgrounds\ you\ can\ download\ for\ free\ _\ Canva.jpg);
+    background-size: cover;
+}
+
+/* Container utama untuk dashboard */
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Judul selamat datang */
+.container h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+.container p {
+    font-size: 16px;
+    margin: 5px 0 20px;
+    color: #6c757d;
+}
+
+/* Gaya untuk menu dashboard */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk setiap item menu */
+.menu a {
+    display: flex;
+    align-items: center; /* Pusatkan ikon secara vertikal */
+    justify-content: center; /* Pusatkan teks dan ikon secara horizontal */
+    gap: 10px; /* Jarak antara ikon dan teks */
+    padding: 12px 15px;
+    background: #608BC1;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #F1F0E8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center; /* Pastikan teks berada di tengah */
+}
+
+.menu a i {
+    font-size: 20px;
+    color: #F1F0E8;
+}
+
+.menu a:hover {
+    background: #e9ecef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    color: #F1F0E8;
+}
+
+.menu a:hover i {
+    color: #F1F0E8;
+}
+
+/* Gaya untuk tombol logout */
+.logout-link a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #dc3545;
+}
+
+.logout-link a i {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.logout-link a:hover {
+    color: #a71d2a;
+}

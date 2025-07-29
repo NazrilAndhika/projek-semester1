@@ -1,0 +1,112 @@
+/* Gaya untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(asset/Customizable\ Zoom\ virtual\ backgrounds\ you\ can\ download\ for\ free\ _\ Canva.jpg);
+    background-size: cover;
+}
+
+/* Gaya untuk container utama */
+.container {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Judul halaman */
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #495057;
+}
+
+/* Gaya untuk label form */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Gaya untuk input form */
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Gaya untuk tombol submit */
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Gaya untuk link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk tabel data barang */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    text-align: left;
+}
+
+table th {
+    background-color: #f8f9fa;
+}
+
+/* Gaya untuk baris tabel kosong */
+table tr td[colspan="4"] {
+    text-align: center;
+    color: #aaa;
+}
+
+/* Gaya untuk pesan jika barang tidak ditemukan */
+p {
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
